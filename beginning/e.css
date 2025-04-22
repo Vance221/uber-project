@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+.niger_logo{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 10px;
+}
+.navlinks{
+   display: flex;
+   gap: 32px;
+   padding: 20px;
+   align-items: center;
+}
+.pt{
+    align-items: center;
+    display: flex;
+}
+.uj{
+    color: white;
+}
+.fu{
+    border-radius: 20px;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+  border-color: white;
+    background-color: white;
+    border: 1px solid white;
+}
+.xa{
+    font-size: 40px;
+}
+.modal-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:100vh;
+    background-color: black;
+    z-index: 2;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.modal-continer{
+    width: 450px;
+    height: 500px;
+    border-radius: 32px;
+    background-color: white;
+}
+#country:checked + div.modal-screen{
+    opacity: 1;
+    visibility: visible;
+}
+.db{
+    width: 110px;
+    height: 50px;
+    border-color: green;
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    gap: 20px;
+}
+.vm{
+    justify-content: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.w-6{
+    color: dimgrey;
+}
+
+.sko{
+    padding-top: 20px;
+}
+.mn{
+    color: white;
+}
+.slo{
+    background-image: url(./lagos_hero_image_d85308859b.webp);
+    background-size: cover;
+    gap: 20px;
+
+    h1{
+        font-size: 50px;
+        color: white;
+        animation-delay: 1s;
+    }
+    p{
+        font-size: 21px;
+        color: white;
+        animation-delay: 0.8s;
+    }
+    button{
+        animation-delay: 0.5s;
+    }
+    h1,p,button{
+    transform: translateY(-100px);
+    opacity:0 ;
+        animation-name: revelation;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+    }
+}
+@keyframes revelation {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    50%{ 
+        opacity: 0.5;
+        transform: translateY(0px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.xop{
+width:80px ;
+height: 30px;
+border-radius: 20px;
+background-color: black;
+color: white;
+}
+.xoo{
+    width:80px ;
+    height: 30px;
+    border-radius: 20px;
+}
+.xou{
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+}
+.xoi{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+.sdo{
+    display: flex;
+    gap: 10px;
+    
+}
+.po{
+    justify-content: end;
+    flex-direction: column;
+
+}

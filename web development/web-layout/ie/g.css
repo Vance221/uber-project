@@ -1,0 +1,34 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+}
+.auth{
+    color: orangered;
+    font-weight: 800;
+    font-size: 18px;
+}
+.log-in-section {
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+}
+.fid {
+    border: 1px solid light black;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 2px 12px;
+    }
+    .dif {
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+    padding: 2px 12px;
+    border: 1px solid red;
+    font-weight: 700;
+    }

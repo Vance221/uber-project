@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    color: white;
+}
+.we{
+    display: flex;
+    gap: 15px;
+}
+.va{
+   display: flex;
+   gap: 15px;
+   
+}
+.si{
+    height: 20px;
+    width: 20px;
+}
+.dy{
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+}
+.as{
+   color: white; 
+   border-radius: 5px;
+   width: 50px;
+   height: 20px;
+}
+.ru{
+    border-color: rgba(30, 148, 245, 0.795);
+    color: white;
+    border-style: dotted;
+    width: 45px;
+    height: 25px;
+    margin: 1px;
+}

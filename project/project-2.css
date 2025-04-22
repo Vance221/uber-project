@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+.vance-1{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+.svg-loca-svg{
+    display: flex;
+    align-items: center;
+}
+.word{
+    padding-top: 10px;
+    color: grey;
+}
+.fu {
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: grey;
+    align-items: center;
+    display: flex;
+    padding-left: 3px;
+    gap: 20px;
+    border: 1px solid white;
+}
+.su{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid white;
+}
+.vog{
+    width: 15px;
+    height: 25px;
+    align-items: center;
+    
+}
+.vance-2{
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+.img{
+    width: 250px;
+    height: 140px;
+    
+}
+.vance-3{
+    padding-top: 200px;
+    padding-right: 100px;
+}
+.vance-3-r{
+    display: flex;
+    padding-left: 40px;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.my-image{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 90px;
+    padding-top: 240px;
+align-items: center;
+    gap: 20px;
+}
+.app-store-google{
+    width: 120px;
+    height: 50px ;
+}
+.get-restaurants{
+    display: flex;
+    gap:100px;
+    font-size: 18px;
+}
+.-four{
+    padding-top: 25px;
+}
+.color-change{
+    color: black;
+}
+.links{
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-between;
+}
+.logos{
+    display: flex;
+    gap: 30px;
+    padding-left: 50px;
+}
+.policies{
+    display: flex;
+    gap: 30px;
+}
+.reCAPTCHA{
+    padding-top: 40px;  
+    padding-bottom: 60px;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}

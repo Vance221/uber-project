@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+    align-items: center;
+    padding: 30px;
+}
+
+.auth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-weight: BOLD;
+    color: grey;
+    font-size: 18px;
+}
+
+.log-in-section {
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 800;
+    color: black;
+}
+.rad {
+border: 0px;
+color: grey;
+background-color: white;
+font-weight: 700;
+}
+.dar {
+border-radius: 4px;
+color: grey;
+background-color: white;
+padding: 2px 12px;
+border: 1px solid grey;
+font-weight: 700;
+}
+.cain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 23px;
+    align-items: start;
+    width: 50%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+}
+
+.gin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 49px;
+    
+}
+.tol{
+    
+    font-size: 20px;
+}
+.clients-logos{
+    display: flex;
+    margin-top: 1rem;
+  margin-left: -2rem;
+  width: 10rem;
+}
+
+
+.fik{
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 2px 12px;
+    border:10px solid black;
+    border-width: 15px;
+    font-weight: bold;
+
+}
+.hero{
+    display: flex;
+    height: 540px;
+}
+.clients-logos img {
+    width: 150px;
+}
+.desktop-img{
+    height: 100%;
+}

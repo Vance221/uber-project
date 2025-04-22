@@ -1,0 +1,29 @@
+#nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.auth{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+}
+.rab{
+    display: flex;
+    gap: 24px;
+}
+h1{
+    font-size: 36px;
+}
+
+
+.rounded{
+    border-radius: 24px;
+    background-color: red;
+    padding: 6px 13px 6px 13px;
+}

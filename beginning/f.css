@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+.niger_logo {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 10px;
+}
+
+.navlinks {
+    display: flex;
+    gap: 32px;
+    padding: 20px;
+    align-items: center;
+}
+
+.slo {
+    background-image: url(./lagos_hero_image_d85308859b.webp);
+    background-size: cover;
+    gap: 20px;
+    height: 100vh;
+    padding-top: 50px;
+}
+.pt{
+    align-items: center;
+    display: flex;
+}
+.sko{
+    padding-top: 20px;
+    color: white;
+}
+.xa{
+    font-size: 60px;
+color: white;
+
+}

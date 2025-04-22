@@ -1,0 +1,30 @@
+
+
+.btn {
+    width: 200px;
+    padding: 8px 0;
+    background: black;
+    color: white;
+    border-radius: 24px;
+    border: 0;
+}
+
+.btn:hover{
+    opacity: 0.7;
+    scale: 1.06;
+}
+
+.text-base {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text-big {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text-small {
+    font-size: 12px;
+    font-weight: 500;
+}

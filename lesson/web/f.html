@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" id="data">
+    <button onclick="useString()">
+        click me
+    </button>
+    <script>
+        function useString() {
+            // getting html input element by it's id
+            var data = document.getElementById("data")
+            // getting value or text that is inside the input element
+            var datatext= data.value;
+            
+            
+            var hasAlphabet= datatext.includes("a");
+            alert(hasAlphabet)
+        }
+    </script>
+</body>
+
+</html>

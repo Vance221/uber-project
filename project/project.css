@@ -1,0 +1,592 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 15px;
+   padding-bottom: 13px;
+    color: white;
+    background-color: black;
+    align-items: center;
+
+}
+
+.nav-1 {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.nav-2 {
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.vog{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    left: 20px;
+    
+}
+.uber-link{
+    color: white;
+}
+.fu {
+    align-items: center;
+    display: flex;
+}
+
+.fi {
+    border-radius: 20px;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+}
+
+.navbar-2 {
+    padding-top: 50px;
+    padding-left: 50px;
+
+   padding-right: 40px;
+ display: flex;
+ justify-content: space-between;
+ padding-right: 100px;
+ align-items: center;
+}
+
+.h1 {
+    font-size: 50px;
+}
+
+.hero {
+    font-size: 20px;
+}
+
+.pickup {
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    text-align: left;
+    border: none;
+    color: grey;
+font-size: 16px;
+padding-left: 20px;
+}
+.svg-vog{
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.Search{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: left;
+    border: none;
+    color: grey;
+font-size: 16px;
+padding-left: 55px;
+    background-color: white;
+    
+}
+.uber1 {
+    justify-content: space-between;
+}
+
+.Dropoff {
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    text-align: left;
+    border: none;
+    color: grey;
+font-size: 16px;
+padding-left: 20px;
+}
+
+.today {
+    display: flex;
+    font-size: 16px;
+}
+
+.calendar-filled {
+    align-items: center;
+    display: flex;
+ position: relative;
+}
+.cal{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    left: 20px;
+}
+
+.to {
+    align-items: center;
+    display: flex;
+    
+    
+}
+.tod{
+    width: 194px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    text-align: left;
+    border: none;
+    color: grey;
+font-size: 16px;
+padding-left: 55px;
+}
+.no {
+    width: 194px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    text-align: left;
+    border: none;
+    color: grey;
+font-size: 16px;
+padding-left: 55px;
+}
+.Screenshot{
+    width: 500px;
+    height: 550px;
+}
+.now {
+    align-items: center;
+    display: flex;
+    
+}
+
+.prices {
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.todaynow {
+    display: flex;
+    padding-top: 20px;
+    gap: 7px;
+}
+
+.priceslog {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#menu{
+    background-color:white;
+    color: grey;
+    height: 63vh;
+    width:14vw ;
+    transform: translateY(-50vh);
+    visibility: hidden;
+    transition: all 0.5s 0.1s ease-in-out;
+    z-index: -1;
+}
+.fixed{
+    position: absolute;
+    top:48px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+border: 2px solid whitesmoke;
+border-radius: 9px;
+
+}
+#menu-toggle:checked ~ #menu {
+    transform: translateY(0);
+    visibility: visible;
+}
+ .fix{
+padding-top: 13px;
+padding-bottom: 5px;
+font-size: 14px;
+padding-left: 13px;
+ }
+.about-2 {
+    align-items: center;
+    display: flex;
+}
+
+.about-9 {
+    align-items: center;
+    display: flex;
+}
+
+.Ridecourier {
+    display: flex;
+    gap: 70px;
+    padding-top: 20px;
+}
+
+.pick {
+    padding-top: 60px;
+}
+
+.drop {
+    padding-top: 20px;
+}
+
+.Courier {
+    color: grey;
+}
+
+.rrc {
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.ride {
+    width: 360px;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    border-color: white;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.reserve {
+    width: 360px;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    border-color: white;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.courier {
+    width: 360px;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    border-color: white;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.suggest-rrc {
+    padding-left: 50px;
+    padding-top: 150px;
+}
+
+.vance-3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.account {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.View {
+    padding-top: 20px;
+}
+
+.account-0 {
+    padding-top: 30px;
+}
+
+.Dont {
+    padding-top: 30px;
+}
+
+.log {
+    font-size: 40px;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+}
+
+.ride-1 {
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+.goany {
+    padding-top: 10px;
+}
+.button-details{
+    padding-top: 20px;
+}
+.button-detals{
+    padding-top: 5px;
+}
+.details {
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    width: 70px;
+    height: 30px;
+}
+
+.any {
+   
+    align-items: center;
+    display: flex;
+ position: relative;
+}
+.any-12{
+    align-items: center;
+    display: flex;
+ position: relative;
+}
+.any-1-2{
+    right: 20px; 
+    width: 20px;
+    height: 15px;
+    position: absolute;
+}
+
+
+
+.vance-4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+.drive{
+    font-size: 40px; 
+}
+.make-money{
+    padding-top: 30px;
+}
+
+.get-started-log-in{
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
+    align-items: center;
+}
+.Get{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+.vance-5{display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+.the-uber{
+    font-size: 40px;
+}
+.uber-for{
+    padding-top: 30px;
+}
+.get-check-out{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    align-items: center;
+}
+.vance-6{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.save-on{
+    font-size: 40px;
+}
+.become{
+    padding-top: 30px;
+}
+.sign-month{
+    padding-top: 20px;
+}
+.leave{
+    padding-top: 20px;
+}
+.sign-save{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+.vance-7{
+    background-color: whitesmoke;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.easier{
+    font-size: 40px;
+}
+ .image-wrapper {
+    position: relative;
+    display: inline-block; /* Allow the wrapper to size to the image */
+}
+.download-scan{
+    padding-top: 50px;
+    display: block;
+}
+.download{
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    align-items: center;
+}
+.download-1{
+    height:190px ;
+    width: 580px;
+    border: 2px solid white;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    background-color: white;
+}
+.down-1{
+    display: flex;
+    gap: 40px;
+}
+.qr-img-image{
+    width:150px ;
+    height: 160px;
+  
+}
+.uber-icon{
+    width:30px ;
+    height: 60px;
+    position: absolute;
+    top: 50px; /* Adjust position */
+    left: 60px; /* Adjust position */ 
+}
+.ouber{
+    display: flex;
+    align-items: center;
+}
+.color-chang{
+    color: black;
+}
+.arrow{
+    align-items: center;
+}
+.vance-8{
+    padding-top: 200px;
+    background-color: black;
+    color: white;
+
+}
+.the-four{
+    display: flex;
+    gap: 200px;
+    padding-left: 60px;
+    padding-right: 90px;
+    padding-top: 70px;
+}
+.visit{
+    padding-top: 50px;
+    padding-left: 60px;
+}
+.uber-h4{
+    padding-left: 60px;
+    font-size: 30px;
+}
+.-four{
+    padding-top: 25px;
+}
+.links{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 90px;
+}
+.-links{
+    display: flex;
+    gap: 80px;
+}
+.color-change{
+    color: white;
+}
+.english-Francisco{
+    display: flex;
+    gap: 20px;
+}
+.eng{
+    display: flex;
+    gap: 10px;
+}
+.app-store-google{
+    width: 120px;
+    height: 50px ;
+}
+.my-image{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 90px;
+    padding-top: 60px;
+align-items: center;
+    gap: 20px;
+}
+.finally{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 90px;
+    padding-top: 60px; 
+    justify-content: space-between;
+    color: grey;
+}
+.pri-acc-ter{
+    display: flex;
+    gap: 20px;
+}
+.nothing{
+    padding-top: 60px; 
+}
