@@ -26,13 +26,56 @@
     padding-left: 20px;
 }
 .ride-div:hover{
-border: 2px solid grey;
-border-radius: 10px;
-background-color: grey;
-width: 50px;
-height: 30px;
-text-align: center;
-
+background-color: rgba(128, 128, 128, 0.432);
+}
+.ride-div{
+    cursor: pointer;
+    width: 55px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    padding: 11px;
+    text-align: center;
+}
+.ride-di{
+    cursor: pointer;
+    width: 55px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    padding: 11px;
+    text-align: center;
+}
+.ride-di:hover{
+    background-color: rgba(128, 128, 128, 0.432);
+    }
+.busines{
+    cursor: pointer;
+    width: 83px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    padding: 9px;
+    text-align: center;
+}
+.busines:hover{
+    background-color: rgba(128, 128, 128, 0.432);
+}
+.uber-li{
+    cursor: pointer;
+    width: 93px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    padding: 10px;
+    text-align: center;
+}
+.uber-li:hover{
+    background-color: rgba(128, 128, 128, 0.432);
 }
 .nav-2 {
     justify-content: end;
@@ -63,6 +106,7 @@ text-align: center;
     background-color: white;
     width: 70px;
     height: 30px;
+    cursor: pointer;
 }
 
 .navbar-2 {
@@ -81,6 +125,7 @@ text-align: center;
 
 .hero {
     font-size: 20px;
+    cursor: pointer;
 }
 
 .pickup {
@@ -223,6 +268,7 @@ padding-left: 55px;
     display: flex;
     align-items: center;
     position: relative;
+    cursor: pointer;
 }
 #menu{
     background-color:white;
@@ -232,7 +278,7 @@ padding-left: 55px;
     transform: translateY(-50vh);
     visibility: hidden;
     transition: all 0.5s 0.1s ease-in-out;
-    
+    cursor: pointer;
 }
 .fixed{
     position: absolute;
@@ -242,11 +288,12 @@ padding-left: 55px;
     bottom: 0;
 border: 2px solid whitesmoke;
 border-radius: 9px;
-
+cursor: pointer;
 }
 #menu-toggle:checked ~ #menu {
     transform: translateY(0);
     visibility: visible;
+    cursor: pointer;
 }
  .fix{
 padding-top: 13px;
