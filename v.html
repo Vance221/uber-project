@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="nav">
+    <div>
+      <img src="./img/download.svg" alt="">
+    </div>
+
+    <div class="nav-links">
+      <div class="flex">
+        <div>ng</div>
+        <div>En</div>
+        <label for="country" class="svg-active">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="hidden sm:flex h-6 w-6">
+            <path
+              d="M11.2929 15.2929L7.70713 11.7071C7.07716 11.0771 7.52333 10 8.41424 10H15.5858C16.4767 10 16.9229 11.0771 16.2929 11.7071L12.7071 15.2929C12.3166 15.6834 11.6834 15.6834 11.2929 15.2929Z"
+              fill="currentColor"></path>
+          </svg>
+        </label>
+        <input type="checkbox" id="country" class="hidden">
+        <div class="modal-screen flex">
+          <div class="modal-container">
+            <div>
+              <label style="color: black;" for="country">cancel</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="support">Support</div>
+      <div id="register">
+        <button>Register</button>
+      </div>
+      <div>
+        <label for="menu" class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <input type="checkbox" hidden id="menu" class="hidden">
+        <div class="nav-down">
+
+        </div>
+        <div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bolt">
+    <div class="bolt-text">
+      <h1>Get the best out of your game</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+      <button>Get started <div class="arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="m288-96-68-68 316-316-316-316 68-68 384 384L288-96Z"/></svg>
+      </div></button>
+    </div>
+    <div class=" mx-5 w-[800px]  bg-zinc-400 h-[400px] rounded-md z-20 ">
+        <div class=" flex justify-between p-4">
+          <div class="text-2xl font-bold">Calculator</div>
+          <div>
+            <input id="input1" class=" bg-white p-6 rounded-md" type="number">
+          </div>
+          <div>
+            <select name="sign" id="sign">
+              <option value="+">+</option>
+              <option value="*">*</option>
+              <option value="*">/</option>
+              <option value="*">%</option>  
+              <option value="*"> -</option>
+              <option value="*">**</option>
+            </select>
+          </div>
+          <div>
+            <input id="input2" class=" bg-white p-6 rounded-md" type="number">
+          </div>
+        </div>
+        <div id="result">
+            <input id="input2" class=" bg-white p-6 rounded-md" type="number">
+        </div>
+    </div>
+    <div class="dark-cover"></div>
+  </section>
+  <section id="nextone" class="background" style="--color:#788"></section>
+  <script>
+    let input1 = document.getElementById("input1");
+    let input2 = document.getElementById("input2");
+    let sign = document.getElementById("sign");
+    let result = document.getElementById("result");
+    let value1 = input1.value;
+    let value2 = input2.value;
+
+    input2.addEventListener("input", function () {
+      value2 = input2.value;
+      value1 = input1.value;
+      if(sign.value == "+") {
+        result.innerHTML = Number(value1) + Number(value2)
+      }
+      
+    });
+
+    console.log(value1, value2);
+  </script>
